@@ -1,10 +1,10 @@
 # Klementynka
 Klementynka Engine to czatowy bot w Minecraft umożliwiający wykonywanie różnych akcji przez graczy.
-Program pozwala na automatyzację większości zadań dzięki opcji tworzenia własnych komend!
+Program pozwala na automatyzację większości zadań dzięki opcji tworzenia własnych komend.
 
 ![Klementynka screenshot](https://i.imgur.com/NlC0ab5.png)
 
-Program jest przystosowany do czatu na serwerze GC2.PL.
+Aplikacja jest przystosowana do czatu na serwerze GC2.PL.
 
 ## Wprowadzenie
 
@@ -25,7 +25,7 @@ lub
 dwukrotne kliknięcie na główny plik programu
 ```
 
-## Tworzenie własnych komend
+### Tworzenie własnych komend
 
 Wymagana jest minimalna znajomość języka programowania Python.
 
