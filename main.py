@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
 	system('title Klementynka')
 
-	color_print('cyan', "Klementynka Engine "+__version__+" for Bigosek\n")
+	color_print('cyan', "Klementynka Engine "+__version__+"\n")
 	print " _   ___                           _               _         "
 	print "| | / / |                         | |             | |        "
 	print "| |/ /| | ___ _ __ ___   ___ _ __ | |_ _   _ _ __ | | ____ _ "
