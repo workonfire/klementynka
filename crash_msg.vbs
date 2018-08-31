@@ -1,0 +1,1 @@
+crash_msg = msgbox("Klementynka scrashowa³a!"+chr(10)+"Informacje deweloperskie zosta³y zapisane w pliku error.log.", 16, "Crash!")
