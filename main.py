@@ -1,11 +1,11 @@
 #!/usr/bin python
 # -*- coding: utf-8 -*-
 
-# Klementynka Engine 1.2.1 BETA
+# Klementynka Engine 1.2.2 BETA
 # Program jest przystosowany do czatu na serwerze GC2.PL
 
 if __name__ == '__main__':
-	__version__ = "1.2.1 BETA"
+	__version__ = "1.2.2 BETA"
 	
 	try:
 		from os import path, makedirs, remove, listdir, system
@@ -166,10 +166,13 @@ if __name__ == '__main__':
 				if '!'+cmd in user_msg:
 					try:
 						makedirs('build')
-						zip_ref = zipfile.ZipFile('cmd/'+cmd+'.zip', 'r')
-						zip_ref.extractall('build/')
-						zip_ref.extractall('.')
-						zip_ref.close()
+						try:
+							zip_ref = zipfile.ZipFile('cmd/'+cmd+'.zip', 'r')
+							zip_ref.extractall('build/')
+							zip_ref.extractall('.')
+							zip_ref.close()
+						except:
+							pass
 						try:
 							color_print('yellow', "Trwa wykonywanie komendy !"+cmd+"...")
 							execfile('__main__.py')
