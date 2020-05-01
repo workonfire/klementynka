@@ -2,7 +2,7 @@
 
 ### UWAGA! Ten projekt jest przestarzały i niewspierany.
 
-Wspierane wersje MC: 1.7 - 1.12
+Wspierane wersje MC: 1.? - 1.12
 
 Klementynka Engine to czatowy bot w Minecraft umożliwiający wykonywanie różnych akcji przez graczy.
 Program pozwala na automatyzację większości zadań dzięki opcji tworzenia własnych komend.
